@@ -55,3 +55,10 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
   - We conducted hypothesis testing to compare three periods: pre-COVID, during COVID, and post-COVID. The results led us to reject the null hypothesis, indicating a significant difference in the mean burned area across these periods.
 ### Part 5: Reporting and Insights   
 - We compiled our report using Python in Jupyter Notebook, providing an in-depth analysis of all insights. Each finding is supported by detailed visualizations to illustrate every possible trend and relationship clearly. Finally, the report concludes with actionable recommendations on reducing wildfires based on the analyzed data.
+
+##  Tools & Technologies  
+- Python (pandas, numpy, scikit-learn)
+- Jupyter Notebooks for code and report
+- Data visualization libraries (matplotlib, seaborn,plotly)
+- Version control: GitHub
+  
