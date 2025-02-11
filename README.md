@@ -1,7 +1,7 @@
 # Alberta-Wildfire-Analysis
 # Group Member : Riya Chevli , Deepika Gollamandala , Yilin Wan . 
 ## Project Overview : 
-Wildfires naturally occur in many ecosystems and play an important role in helping forests and grasslands regenerate by removing old plants. However, they can become harmful when they occur close to populated areas, where they can destroy homes, businesses, and even lead to injuries or loss of life. We chose to study wildfires because they are a complex issue with overarching and lasting impacts across the environment, ecology, and economy of communities, especially in this part of the world, as seen in the recent fires in California. News reports highlight that 2023 has been an especially severe year for wildfires in Canada. Recently, there has been a noticeable rise in both the frequency and intensity of these fires. We aim to explore the underlying causes driving this trend.
+Wildfires naturally occur in many ecosystems and play an important role in helping forests and grasslands regenerate by removing old plants. However, they can become harmful when they occur close to populated areas, where they can destroy homes, businesses, and even lead to injuries or loss of life. We chose to study wildfires because they are a complex issue with overarching and lasting impacts across the environment, ecology, and economy of communities, especially in this part of the world, as seen in the recent fires in California. News reports highlight that 2023 has been an especially severe year for wildfires in Canada. Recently, there has been a noticeable rise in both the frequency and intensity of these fires.
 
 Alberta is no stranger to wildfires—the latest one being the devastating wildfire in Jasper during the summer of 2024, in which about 30% of the tourist town was destroyed by fire. Studying wildfires, their patterns, causes, and characteristics helps us understand them and find ways to prevent and mitigate them, keep communities safe, and protect the environment.
 
@@ -31,6 +31,7 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
   1.1  Load and Inspect the Datasets  
   - Load the dataset and display its shape, column names, and data types.
   - Identify and list the number of missing values in each column.
+  - Check for duplicate rows and remove if found.
     
   1.2  Handling Missing Data  
   -  Drop columns with more than 35% missing values.
@@ -47,6 +48,12 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
  - Here we create pivot table to give us  Top 5 Most Frequent General Causes by Period.
  
 ### Part 3: Data Visualization
+ 3.1 Bar charts showing the frequency of most common causes of wildfires
+ 3.2 Bar charts showing the monthly frequency of fires.
+ 3.3 Scatter plots showing the influence of weather conditions on the size, spread and frequency of fires
+ 3.4 Pie charts showing the proportions of various class of fire - minimal impact, moderate impact, extensive impact, etc.
+ 3.5 Violin and box plots showing the differences in fire spread rates among the fires due to natural causes and fires due to human activity.
+ 
 ### Part 4: Further Analysis  
   4.1  Correlation Analysis   
   - we Compute and visualize the correlation matrix between Average Daily Value, current_size, fire_spread_rate, temperature, relative_humidity, and wind_speed.we Identify strong correlations and explain their implications.
@@ -54,7 +61,7 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
   4.2  Hypothesis Testing  
   - We conducted hypothesis testing to compare three periods: pre-COVID, during COVID, and post-COVID. The results led us to reject the null hypothesis, indicating a significant difference in the mean burned area across these periods.
 ### Part 5: Reporting and Insights   
-- We compiled our report using Python in Jupyter Notebook, providing an in-depth analysis of all insights. Each finding is supported by detailed visualizations to illustrate every possible trend and relationship clearly. Finally, the report concludes with actionable recommendations on reducing wildfires based on the analyzed data.
+- We compiled our report using Python in Jupyter Notebook, providing an in-depth analysis of all insights. Each finding is supported by detailed visualizations to illustrate the trends and relationships clearly. Finally, the report concludes with actionable recommendations on reducing wildfires based on the analyzed data.
 
 ##  Tools & Technologies  
 - Python (pandas, numpy, scikit-learn)
