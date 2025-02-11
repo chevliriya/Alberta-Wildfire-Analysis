@@ -48,15 +48,18 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
  - Here we create pivot table to give us  Top 5 Most Frequent General Causes by Period.
  
 ### Part 3: Data Visualization
- 3.1 Bar charts showing the frequency of most common causes of wildfires
+ 3.1 Line chart and bar chart showing the monthly frequency of fires.
  
- 3.2 Bar charts showing the monthly frequency of fires.
+ 3.2 Bar charts showing the frequency of general causes of wildfires.
+
+ 3.6 Stacked bar chart and box plots showing the differences in fire spread rates among the fires due to natural causes and fires due to human activity.
  
- 3.3 Scatter plots showing the influence of weather conditions on the size, spread and frequency of fires
+ 3.3 Scatter plots and 3D Scatter Plot showing the influence of weather conditions on the size, spread and frequency of fires.
+
+ 3.4 Bar chart showing the impact of wildfires on air quality in Calgary.
  
- 3.4 Pie charts showing the proportions of various class of fire - minimal impact, moderate impact, extensive impact, etc.
+ 3.5 Pie charts showing the proportions of various class of fire - minimal impact, moderate impact, extensive impact, etc.
  
- 3.5 Violin and box plots showing the differences in fire spread rates among the fires due to natural causes and fires due to human activity.
  
 ### Part 4: Further Analysis  
   4.1  Correlation Analysis   
