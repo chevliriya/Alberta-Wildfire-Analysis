@@ -73,24 +73,34 @@ The 3D scatter plot illustrates that when the temperature ranges between 10-30°
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Temperature,%20Humidity,%20and%20Wind%20Speed%20vs%20Fire%20Spread%20Rate.png?raw=true)   
 
 The bar graph compares the average air quality index (Average Daily Value) between fire days and non-fire days, with blue bars representing non-fire days and red bars representing fire days. The graph visually shows how the air quality differs between these two conditions, and the values are labeled above each bar for clarity.
-![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/non-fire%20day%20and%20fire%20day(air%20quality).png?raw=true)
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/non-fire%20day%20and%20fire%20day(air%20quality).png?raw=true)  
+
+The scatter plot shows the relationship between wind speed and temperature for different fire classes, with each point representing a wildfire. It uses color to distinguish between fire classes (ranging from minimal to extensive impact), allowing us to see how temperature and wind speed influence the fire's severity.  
+- The second graph is similar but includes all fire classes, not just the large and extensive impact fires, providing a broader view of the data.
+- The scatter plot reveals that most large impact fires occur when the temperature is between 20 and 30°C and wind speed is between 0 and 40 km/h, highlighting the critical environmental conditions that contribute to the severity of these fires.
+
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Temperature%20and%20wind%20speed%20on%20fire%20class%202.png?raw=true)   
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Temperature%20and%20wind%20speed%20on%20fire%20class.png?raw=true)  
+
+The bar chart shows the distribution of wildfires based on different vegetation types (fuel types), with each bar representing the number of fires associated with each vegetation type. The x-axis displays the fuel types, while the y-axis shows the number of fires, and the chart helps identify which vegetation types are most commonly associated with wildfires.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20of%20wildfire%20by%20vegetation%20type.png?raw=true)  
+
+The bar chart displays the average fire spread rate for different vegetation types (fuel types), with the bars representing the average spread rate (in meters per minute) for each vegetation type.   
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/avg%20fire%20spread%20rate%20by%20vegetation%20type.png?raw=true)   
+
+The line chart shows the yearly trend of wildfires in Alberta, with the x-axis representing the years and the y-axis representing the number of fires each year. The red line with circular markers highlights how the number of wildfires has varied over the years, helping to identify periods with higher or lower wildfire activity. The x-axis is limited from 2006 to 2023, providing a clear view of the fire trends within this range.  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/yearly%20trend%20of%20wild%20fire%20.png?raw=true)  
+
+The line chart shows the yearly trend of the total area burned in wildfires across Alberta, with the x-axis representing the years and the y-axis showing the area burned (in million hectares). The green line with circular markers highlights how the area affected by wildfires has changed over the years, with peaks and valleys indicating periods of higher or lower fire activity. The chart is focused on the years from 2006 to 2023, providing a clear view of the trends in wildfire size during this period.  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/yearly%20trend%20of%20area%20burnt.png?raw=true)   
+
+### Comparision Of Three Period Analysis :  
 
 ![image alt]
-
 ![image alt]  
 
- 
- 
- 3.2 Bar charts showing the frequency of general causes of wildfires.
 
- 3.3 Stacked bar chart and box plots showing the differences in fire spread rates among the fires due to natural causes and fires due to human activity.
- 
- 3.4 Scatter plots and 3D Scatter Plot showing the influence of weather conditions on the size, spread and frequency of fires.
 
- 3.5 Bar chart showing the impact of wildfires on air quality in Calgary.
- 
- 3.6 Pie charts showing the proportions of various class of fire - minimal impact, moderate impact, extensive impact, etc.
- 
  
 ### Part 4: Further Analysis  
   4.1  Correlation Analysis   
