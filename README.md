@@ -63,6 +63,9 @@ In this line plot show how wildfire occurrences change by month for each cause t
 A stacked bar chart to show the distribution of wildfire sizes for each cause type, with different colors representing size categories.
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/natural%20vs%20human(size).png?raw=true)  
 
+In this box plot compare the spread rate between different wildfire cause types. It shows the median,  spread, and potential outliers for spread rate associated with each cause type.
+
+
 Here first filters the data to focus only on the Air Quality Index parameter from the station Calgary Central, then creates a boxplot to compare air quality levels (Average Daily Value) between different wildfire cause types (e.g., natural or human-caused). The boxplot shows the median, spread, and potential outliers for air quality values associated with each cause type.
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/natural%20vs%20human(air%20quality).png?raw=true)  
 
