@@ -94,22 +94,78 @@ The line chart shows the yearly trend of wildfires in Alberta, with the x-axis r
 The line chart shows the yearly trend of the total area burned in wildfires across Alberta, with the x-axis representing the years and the y-axis showing the area burned (in million hectares). The green line with circular markers highlights how the area affected by wildfires has changed over the years, with peaks and valleys indicating periods of higher or lower fire activity. The chart is focused on the years from 2006 to 2023, providing a clear view of the trends in wildfire size during this period.  
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/yearly%20trend%20of%20area%20burnt.png?raw=true)   
 
-### Comparision Of Three Period Analysis :  
+### Comparision Of Three Period Analysis :   
+This bar chart displays the average fire size (in hectares) for each period (Pre-COVID, During-COVID, and Post-COVID), with the height of each bar representing the average size of wildfires during that specific period. 
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Avg%20fire%20size%20during%20period.png?raw=true)  
 
-![image alt]
-![image alt]  
+The group bar chart shows counts fire causes for each period and show how the number of fires for each cause changes across different periods using shades of red.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20of%20fire.png?raw=true)   
 
+This bar chart compares the top 5 wildfire causes across periods (precovid, covid, postcovid) and showing the number of cases for each cause in each period using different colors.  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20of%20fire.png?raw=true)  
+
+This pie chart shows the distribution of the total area burned across different periods (Pre-COVID, During-COVID, and Post-COVID), with each slice representing the proportion of the total area burned in that period.  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20area%20burnt.png?raw=true)  
 
 
  
 ### Part 4: Further Analysis  
   4.1  Correlation Analysis   
-  - we Compute and visualize the correlation matrix between Average Daily Value, current_size, fire_spread_rate, temperature, relative_humidity, and wind_speed.we Identify strong correlations and explain their implications.
+  - Here we perform correlation analysis during different period.
+ - Here calculates the correlation matrix for wildfire-related variables to measure how strongly they are related (correlation coefficients range from -1 to 1). 
+
+- Numbers and colors indicate the strength and direction of the relationships (e.g., darker orange means stronger positive correlation, while lighter shades or negative values indicate weaker or negative correlations).The diagonal values are always 1.0 since a variable is perfectly correlated with itself.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/correlation%20by%20period.png?raw=true)
     
   4.2  Hypothesis Testing  
   - We conducted hypothesis testing to compare three periods: pre-COVID, during COVID, and post-COVID. The results led us to reject the null hypothesis, indicating a significant difference in the mean burned area across these periods.
-### Part 5: Reporting and Insights   
-- We compiled our report using Python in Jupyter Notebook, providing an in-depth analysis of all insights. Each finding is supported by detailed visualizations to illustrate the trends and relationships clearly. Finally, the report concludes with actionable recommendations on reducing wildfires based on the analyzed data.
+  
+### Part 5:  Conclusions and suggestion   
+
+##### (1) Fire Occurrence:
+- Most fires occur during the month of May, with summer months (May to August) seeing highest  number of fires
+    
+##### (2) Causes of Fire: 
+- Lightening is the leading cause of fires, followed by recreation activity.
+    
+##### (3) Differences in Fire Characteristics:
+- Yes, there are differences in the characteristics of natural fires and human made fires. 
+- Fires due to human activity-  spread through out the year while the fires due to natural causes are seasonal and restricted to the summer months.
+- The natural fires spread faster and can cause extensive damage in a short period. Also, they have immediate affect on the air quality
+
+##### (4) Weather Conditions:
+- Temperature – Most number of fires occur when the temperature is between 10-30 c
+- Windspeed – Most number of fires occur when the  wind speed is in the range 0-40 kms/hr
+- Humidity – Most number of fires occur when  the relative humidity is 10-40% 
+
+##### (5) Fire Spread rate:
+- Fire spreads fastest  when  Temp - 10-30 C, relative humidity- 10-40 % and wind speed is 0-40 km/hr
+
+
+##### (6) Impact of wildfires on air quality index.
+- Air quality index is lower on the days with no fires, indicating better air quality.
+ 
+ 
+##### (7) Impact of Vegetation
+- Coniferous forests, followed by grasslands are more fire-prone. These tree types burn faster –they have higher fire spread rate. 
+
+##### (8) Overall trends in frequency and size:
+- There is a downward trend in number of fires since 2015. The trend in size of fire seems to be cyclical. 
+- In 2023 2M hectares of  area got burnt in Alberta. This is equivalent to 24 times the size of Calgary
+
+
+##### (9) Comparison of fires in Pre-covid, covid and Post-covid period
+- The average fire size is greatest in the post covid period. This is because the period saw some of most largest fires in the recent times.
+- The post covid period(2 years) accounts for about 40% percent of the area that got burnt during the last 18 years.
+
+#### Suggestions
+
+To Reduce Frequency and Impact of Forest Fires:
+
+- Implement stricter regulations and monitoring during high-risk months.
+- Increase public awareness and education on fire prevention, especially related to recreational activities.
+- Enhance early detection and rapid response systems for natural fires.
+- Improve forest management practices to reduce fuel load and fire-prone vegetation
 
 ##  Tools & Technologies  
 - Python (pandas, numpy, scikit-learn)
