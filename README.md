@@ -49,6 +49,8 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
  
 ### Part 3: Data Visualization
  3.1 Line chart and bar chart showing the monthly frequency of fires.
+ ![Frequency of fire](images/fire_example.png)
+
  
  3.2 Bar charts showing the frequency of general causes of wildfires.
 
