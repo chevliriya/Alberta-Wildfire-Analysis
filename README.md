@@ -48,7 +48,9 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
  - Here we create pivot table to give us  Top 5 Most Frequent General Causes by Period.
  
 ### Part 3: Data Visualization
- 3.1 Line chart and bar chart showing the monthly frequency of fires.
+Through the line chart, it can be observed that the number of wildfires generally reaches its peak in May, while in some years, July is the peak, and the number of wildfires from November to March is very low. From the bar chart, it can be seen that May is the month with the most frequent occurrence of wildfires, with about 6000 incidents in the past 18 years. Overall, May to July is the period with the most frequent wildfires, while December to February has relatively fewer fires.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/primary%20cause.png?raw=true)
+ 
  
  3.2 Bar charts showing the frequency of general causes of wildfires.
 
