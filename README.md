@@ -48,8 +48,37 @@ To thoroughly understand wildfires in Alberta, we formulated the following guidi
  - Here we create pivot table to give us  Top 5 Most Frequent General Causes by Period.
  
 ### Part 3: Data Visualization
-Through the line chart, it can be observed that the number of wildfires generally reaches its peak in May, while in some years, July is the peak, and the number of wildfires from November to March is very low. From the bar chart, it can be seen that May is the month with the most frequent occurrence of wildfires, with about 6000 incidents in the past 18 years. Overall, May to July is the period with the most frequent wildfires, while December to February has relatively fewer fires.
-![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/primary%20cause.png?raw=true)
+Through the line chart, it can be observed that the number of wildfires generally reaches its peak in May, while in some years, July is the peak, and the number of wildfires from November to March is very low.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Frequency%20of%20fire(2006-2023).png?raw=true)  
+
+From the bar chart, it can be seen that May is the month with the most frequent occurrence of wildfires, with about 6000 incidents in the past 18 years. Overall, May to July is the period with the most frequent wildfires, while December to February has relatively fewer fires.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Frequency%20of%20fire.png?raw=true)  
+
+In this bar chart shows the number of fires caused by different factors, with lightning and recreation being the main causes, followed by resident and incendiary. Agriculture, the wire industry, and other industries also contribute to the number of fires, while reasons such as railroad and government are less important.  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/primary%20cause.png?raw=true)
+
+In this line plot show how wildfire occurrences change by month for each cause type, highlighting trends across the year.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/natural%20vs%20human(frequency).png?raw=true)
+
+A stacked bar chart to show the distribution of wildfire sizes for each cause type, with different colors representing size categories.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/natural%20vs%20human(size).png?raw=true)  
+
+Here first filters the data to focus only on the Air Quality Index parameter from the station Calgary Central, then creates a boxplot to compare air quality levels (Average Daily Value) between different wildfire cause types (e.g., natural or human-caused). The boxplot shows the median, spread, and potential outliers for air quality values associated with each cause type.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/natural%20vs%20human(air%20quality).png?raw=true)  
+
+The 3D scatter plot illustrates that when the temperature is between 20-30 degree Celsius, the relative humidity is between 20-40%, and the wind speed is between 10-50km/h, it is more likely to cause large-scale wildfires.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Temperature,%20Humidity,%20and%20Wind%20Speed%20vs%20Fire%20Size.png?raw=true)  
+
+The 3D scatter plot illustrates that when the temperature ranges between 10-30°C, relative humidity is between 20-60%, and wind speed falls between 0-40 km/h, the fire spread rate is notably higher, highlighting the combined influence of these environmental factors on wildfire behavior.   
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/Temperature,%20Humidity,%20and%20Wind%20Speed%20vs%20Fire%20Spread%20Rate.png?raw=true)   
+
+The bar graph compares the average air quality index (Average Daily Value) between fire days and non-fire days, with blue bars representing non-fire days and red bars representing fire days. The graph visually shows how the air quality differs between these two conditions, and the values are labeled above each bar for clarity.
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/non-fire%20day%20and%20fire%20day(air%20quality).png?raw=true)
+
+![image alt]
+
+![image alt]  
+
  
  
  3.2 Bar charts showing the frequency of general causes of wildfires.
