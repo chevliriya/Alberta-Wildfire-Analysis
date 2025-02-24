@@ -105,7 +105,7 @@ The group bar chart shows counts fire causes for each period and show how the nu
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20of%20fire.png?raw=true)   
 
 This bar chart compares the top 5 wildfire causes across periods (precovid, covid, postcovid) and showing the number of cases for each cause in each period using different colors.  
-![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20of%20fire.png?raw=true)  
+![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/most%205%20frequent.png?raw=true)  
 
 This pie chart shows the distribution of the total area burned across different periods (Pre-COVID, During-COVID, and Post-COVID), with each slice representing the proportion of the total area burned in that period.  
 ![image alt](https://github.com/chevliriya/Alberta-Wildfire-Analysis/blob/main/images/distribution%20area%20burnt.png?raw=true)  
